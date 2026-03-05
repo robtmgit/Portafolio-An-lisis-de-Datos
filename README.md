@@ -7,4 +7,4 @@ Bienvenido a mi repositorio de proyectos. Aquí encontrarás mi trabajo utilizan
 * **Visualización:** Power BI / Tableau.
 * **Otras:** Excel avanzado.
 ## 📂 Proyectos
-* **Análisis de Clima:** [Ver Dataset de Clima](./Weather%20Table%20-%20Data%20for%20CONVERT.xlsx) - Este proyecto contiene datos sobre como convertir datos utilizando la formalu CONVERT, así como el pegado especial, solamente valores estáticos sin formula (values only).
+* **Análisis de Clima:** [Ver Dataset de Clima](./Weather%20Table%20-%20Data%20for%20CONVERT.xlsx) - Este proyecto contiene datos sobre como convertir algunas unidades de medida o cifras de medición utilizando la formala CONVERT, así como el pegado especial, solamente valores estáticos sin formula (values only).
