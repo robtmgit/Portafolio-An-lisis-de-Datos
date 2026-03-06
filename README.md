@@ -18,3 +18,12 @@ Segmentación de Datos (SPLIT): Desglosé información contenida en una sola cel
 Construcción de Campos Dinámicos (CONCATENATE): Integré múltiples variables (Título + Nombre + Apellido) en una sola columna de "Nombre Completo".
 
 Control de Formato: Aseguré la legibilidad del usuario final mediante la inserción manual de caracteres de espacio (" ") dentro de las funciones, demostrando atención al detalle en la presentación de datos finales.
+Análisis de Desempeño y Crecimiento Mensual
+
+Implementación de métricas clave (KPIs) mediante fórmulas avanzadas de porcentaje:
+
+Logro de Metas: Cálculo de cumplimiento utilizando la relación Real / Meta.
+
+Tasa de Crecimiento: Medición de variaciones temporales con la fórmula (Actual - Anterior) / Anterior.
+
+Normalización de Datos: Formateo de valores flotantes a porcentajes para facilitar la lectura ejecutiva y detección de tendencias (incrementos y decrementos).
