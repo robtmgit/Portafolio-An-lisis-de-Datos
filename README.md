@@ -30,6 +30,7 @@ Normalización de Datos: Formateo de valores flotantes a porcentajes para facili
 
 📂 Automatización de Formatos con TO_PERCENT
 Implementación de Función: Apliqué la función =TO_PERCENT(C4/B4), la cual automatiza la conversión de valores decimales a expresiones porcentuales profesionales.
+
 🛡️ Gobernanza y Protección de Datos (Data Validation)
 Implementé mecanismos de control de calidad para asegurar la integridad de la información y la robustez del reporte:
 Listas Desplegables: Normalización de entradas mediante opciones predeterminadas para evitar inconsistencias en el análisis.
