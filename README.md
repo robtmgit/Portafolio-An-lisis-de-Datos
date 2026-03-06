@@ -48,3 +48,5 @@ Semáforo de Estatus: Automatización de colores basada en el estado de la tarea
 Alertas de Vencimiento Crítico: Creación de una regla lógica (Date is before today) que resalta automáticamente en rojo las fechas pasadas, permitiendo identificar retrasos sin auditoría manual.
 Interfaz y UX de Usuario:
 Uso de Checkboxes para validación binaria de revisiones, mejorando la interactividad y el seguimiento de tareas pendientes.
+
+Aprendí que en SQL, si un número viene disfrazado de texto, uso CAST para quitarle el disfraz y poder trabajar con él. Y si los datos están muy sucios, uso SAFE_CAST para que mi código no explote.
