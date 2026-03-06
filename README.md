@@ -50,3 +50,15 @@ Interfaz y UX de Usuario:
 Uso de Checkboxes para validación binaria de revisiones, mejorando la interactividad y el seguimiento de tareas pendientes.
 
 Aprendí que en SQL, si un número viene disfrazado de texto, uso CAST para quitarle el disfraz y poder trabajar con él. Y si los datos están muy sucios, uso SAFE_CAST para que mi código no explote.
+📂 Caso de Estudio: Cálculo de Antigüedad de Usuarios
+Problema: Los datos de fecha de inscripción venían como texto y contenían errores de escritura ("no_sabe").
+
+Solución:
+
+Utilicé una CTE (WITH) para simular el dataset.
+
+Apliqué SAFE_CAST para estandarizar el formato de fecha sin detener la ejecución por errores.
+
+Implementé la función UNIX_DATE para realizar una resta aritmética entre la fecha actual (CURRENT_DATE) y la fecha de inscripción.
+
+Resultado: Una columna limpia con el número exacto de días transcurridos, convirtiendo un dato complejo en una métrica lista para análisis estadístico.
