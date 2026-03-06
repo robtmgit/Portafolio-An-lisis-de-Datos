@@ -35,3 +35,15 @@ Implementé mecanismos de control de calidad para asegurar la integridad de la i
 Listas Desplegables: Normalización de entradas mediante opciones predeterminadas para evitar inconsistencias en el análisis.
 Checkboxes Personalizados: Creación de controles visuales para el seguimiento de tareas y validación binaria de procesos.
 Protección de Estructura: Blindaje de datos estructurados y fórmulas críticas para prevenir modificaciones accidentales por parte de terceros.
+🛠️ Implementaciones Clave:
+Gobernanza de Datos (Data Validation):
+
+Escudo de Entrada (Reject Input): Configuré reglas estrictas para evitar la "corrupción de datos". El sistema rechaza cualquier entrada que no sea una fecha válida o un estado predefinido.
+
+Normalización con Dropdowns: Implementé menús desplegables para estandarizar categorías (Not Yet Started, In Progress, Ready), eliminando errores tipográficos que arruinan los filtros.
+
+Visualización Dinámica (Conditional Formatting):
+Semáforo de Estatus: Automatización de colores basada en el estado de la tarea (Rojo/Amarillo/Verde) para una interpretación visual inmediata.
+Alertas de Vencimiento Crítico: Creación de una regla lógica (Date is before today) que resalta automáticamente en rojo las fechas pasadas, permitiendo identificar retrasos sin auditoría manual.
+Interfaz y UX de Usuario:
+Uso de Checkboxes para validación binaria de revisiones, mejorando la interactividad y el seguimiento de tareas pendientes.
