@@ -62,3 +62,5 @@ Apliqué SAFE_CAST para estandarizar el formato de fecha sin detener la ejecuci�
 Implementé la función UNIX_DATE para realizar una resta aritmética entre la fecha actual (CURRENT_DATE) y la fecha de inscripción.
 
 Resultado: Una columna limpia con el número exacto de días transcurridos, convirtiendo un dato complejo en una métrica lista para análisis estadístico.
+
+Subiendo script de práctica para limpieza de fechas y manejo de nulos en BigQuery. Incluye lógica de SAFE_CAST, DATE_DIFF y COALESCE.
