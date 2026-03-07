@@ -116,5 +116,3 @@ El script genera una tabla optimizada con:
 2. **Estación Normalizada:** Texto en mayúsculas uniforme.
 3. **Dimensión Temporal:** Año de viaje extraído directamente de la marca de tiempo.
 
----
-*Herramientas: Google BigQuery, SQL Standard Dialect.*
