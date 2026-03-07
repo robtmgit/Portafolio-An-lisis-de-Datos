@@ -155,3 +155,8 @@ Este proyecto presenta un análisis integral de datos de ventas de una tienda mi
 ## 📂 Contenido del Repositorio
 * `Sample - Superstore.xlsx`: Archivo con el análisis completo en 3 hojas (Regional, Temporal y Productos).
 * `img/`: Capturas de pantalla de los gráficos generados.
+* ### 📊 Análisis Regional
+![Ventas y Ganancias por Región](img/grafico_regional.png)
+
+### 📈 Análisis de Rentabilidad por Producto
+![Profit por Subcategoría](img/product_profitability.png)
