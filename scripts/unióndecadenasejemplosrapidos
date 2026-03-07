@@ -1,0 +1,10 @@
+CONCATWS
+Syntax
+CONCAT_WS(separator, string1, string2, ...., string_n)
+SELECT CONCAT_WS('.', 'www','youtube', 'com')
+  www.youtube.com
+CONCAT +
+Syntax
+string1 + string2 + string_n
+SELECT 'www.'+'xbox'+'live'+'.com';
+  www.xboxlive.com
