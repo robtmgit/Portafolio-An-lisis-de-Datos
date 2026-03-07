@@ -64,3 +64,18 @@ Implementé la función UNIX_DATE para realizar una resta aritmética entre la f
 Resultado: Una columna limpia con el número exacto de días transcurridos, convirtiendo un dato complejo en una métrica lista para análisis estadístico.
 
 Subiendo script de práctica para limpieza de fechas y manejo de nulos en BigQuery. Incluye lógica de SAFE_CAST, DATE_DIFF y COALESCE.
+🎯 Objetivo
+El propósito de esta consulta es determinar las 10 rutas más transitadas, desglosadas por tipo de usuario (Subscriber vs Customer), calculando además la duración promedio de cada viaje.
+
+🛠️ Conceptos de SQL Aplicados
+En este ejercicio puse en práctica las siguientes funciones y cláusulas:
+
+CONCAT: Para unir las columnas de estación de inicio y fin en una sola cadena de texto legible (ej. "Station A to Station B").
+
+SAFE_CAST: Utilizado en lugar de CAST para transformar la duración del viaje a INT64 de forma segura, evitando errores si existen datos corruptos o nulos.
+
+AVG & ROUND: Para calcular el tiempo promedio de viaje en minutos, redondeado a dos decimales para mayor claridad.
+
+GROUP BY: Fundamental para agrupar los resultados por ruta y tipo de usuario antes de realizar los cálculos agregados.
+
+ORDER BY & LIMIT: Para organizar los resultados de mayor a menor afluencia y mostrar solo el "Top 10".
