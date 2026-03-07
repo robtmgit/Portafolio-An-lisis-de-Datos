@@ -80,3 +80,6 @@ AVG & ROUND: Para calcular el tiempo promedio de viaje en minutos, redondeado a 
 GROUP BY: Fundamental para agrupar los resultados por ruta y tipo de usuario antes de realizar los cálculos agregados.
 
 ORDER BY & LIMIT: Para organizar los resultados de mayor a menor afluencia y mostrar solo el "Top 10".
+
+LEFT,RIGHT,FIND
+En este módulo practiqué la manipulación de cadenas de texto (strings) tanto en SQL como en Hojas de Cálculo, utilizando funciones de segmentación para separar marcas de tiempo (timestamps) en componentes de fecha y hora individuales.
