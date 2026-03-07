@@ -83,3 +83,38 @@ ORDER BY & LIMIT: Para organizar los resultados de mayor a menor afluencia y mos
 
 LEFT,RIGHT,FIND
 En este módulo practiqué la manipulación de cadenas de texto (strings) tanto en SQL como en Hojas de Cálculo, utilizando funciones de segmentación para separar marcas de tiempo (timestamps) en componentes de fecha y hora individuales.
+
+# 🚲 Análisis de Datos: Limpieza y Transformación (NYC CitiBike)
+
+Este proyecto forma parte de mi certificación en **Análisis de Datos de Google**. En esta sección, utilizo **SQL (Google BigQuery)** para procesar y estandarizar un dataset masivo de viajes en bicicleta de Nueva York.
+
+## 🎯 Objetivo del Script
+Transformar datos crudos (Raw Data) en información estructurada y lista para reportes, aplicando técnicas de manipulación de cadenas de texto y control de calidad.
+
+## 🛠️ Funciones de SQL Utilizadas
+
+| Función | Propósito en este Proyecto |
+| :--- | :--- |
+| `LOWER` | Normalizar nombres de estaciones para correos electrónicos. |
+| `REPLACE` | Eliminar espacios en blanco para generar IDs válidos. |
+| `CONCAT` | Unir texto de columnas con dominios corporativos (`@citibikenyc.com`). |
+| `UPPER` | Estandarizar nombres de estaciones en mayúsculas para reportes. |
+| `CAST` | Convertir datos tipo `TIMESTAMP` a `STRING` para poder manipularlos. |
+| `LEFT` | Extraer los primeros 4 caracteres para obtener el **Año del viaje**. |
+
+## 🧪 Caso Práctico: Limpieza de Valores Nulos
+Uno de los mayores retos en este dataset fue la presencia de registros incompletos. 
+
+**Solución aplicada:**
+Implementé un filtro de calidad mediante la cláusula `WHERE`:
+- `IS NOT NULL`: Para evitar que la función `CONCAT` devolviera resultados vacíos.
+- `!= ''`: Para asegurar que no se procesaran cadenas de texto sin contenido.
+
+## 📊 Resultado
+El script genera una tabla optimizada con:
+1. **Email de Soporte:** Formato limpio y funcional.
+2. **Estación Normalizada:** Texto en mayúsculas uniforme.
+3. **Dimensión Temporal:** Año de viaje extraído directamente de la marca de tiempo.
+
+---
+*Herramientas: Google BigQuery, SQL Standard Dialect.*
