@@ -64,6 +64,7 @@ Implementé la función UNIX_DATE para realizar una resta aritmética entre la f
 Resultado: Una columna limpia con el número exacto de días transcurridos, convirtiendo un dato complejo en una métrica lista para análisis estadístico.
 
 Subiendo script de práctica para limpieza de fechas y manejo de nulos en BigQuery. Incluye lógica de SAFE_CAST, DATE_DIFF y COALESCE.
+
 🎯 Objetivo
 El propósito de esta consulta es determinar las 10 rutas más transitadas, desglosadas por tipo de usuario (Subscriber vs Customer), calculando además la duración promedio de cada viaje.
 
