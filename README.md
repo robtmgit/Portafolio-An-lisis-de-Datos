@@ -134,3 +134,24 @@ Método matemático para concatenar texto de forma manual (común en SQL Server)
 Sintaxis: string1 + string2 + string_n
 Resultado: [www.xboxlive.com](https://www.xboxlive.com)
 
+# Superstore Sales & Profitability Analysis 📊
+
+Este proyecto presenta un análisis integral de datos de ventas de una tienda minorista, transformando datos brutos en insights accionables mediante el uso de **KPIs** y visualización de datos.
+
+## 🚀 KPIs Analizados
+* **Revenue (Ventas Totales):** Medición del volumen de mercado por región.
+* **Net Profit (Ganancia Neta):** Evaluación de la salud financiera de las operaciones.
+* **Product Efficiency:** Identificación de subcategorías con márgenes negativos.
+
+## 🔍 Hallazgos Principales (Insights)
+1. **Estacionalidad:** Se detectó un incremento significativo en las ventas durante el último trimestre del año (Q4), especialmente en Noviembre.
+2. **Fuga de Ganancias:** A pesar de tener un alto volumen de ventas, las subcategorías de **Mesas (Tables)** y **Libreros (Bookcases)** presentan pérdidas netas.
+3. **Líderes de Rentabilidad:** La categoría de **Tecnología** (especialmente Fotocopiadoras y Teléfonos) es el motor principal de la utilidad de la empresa.
+
+## 🛠️ Herramientas Utilizadas
+* **Google Sheets / Excel:** Limpieza de datos (formato de fechas), Tablas Dinámicas y Dashboards.
+* **Data Wrangling:** Normalización de fechas y creación de campos calculados.
+
+## 📂 Contenido del Repositorio
+* `Sample - Superstore.xlsx`: Archivo con el análisis completo en 3 hojas (Regional, Temporal y Productos).
+* `img/`: Capturas de pantalla de los gráficos generados.
