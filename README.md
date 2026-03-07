@@ -116,3 +116,21 @@ El script genera una tabla optimizada con:
 2. **Estación Normalizada:** Texto en mayúsculas uniforme.
 3. **Dimensión Temporal:** Año de viaje extraído directamente de la marca de tiempo.
 
+Gemini ha dicho
+Entendido, quieres un README súper breve y directo que solo explique esos dos ejemplos de la imagen. Aquí tienes una versión minimalista y clara:
+
+🔗 Unión de Cadenas en SQL (Ejemplos Rápidos)
+Guía visual y sintaxis para utilizar CONCAT_WS y el operador + para combinar texto.
+
+1. Función CONCAT_WS
+Une múltiples hilos de texto utilizando un separador común definido al principio.
+
+Sintaxis: CONCAT_WS(separador, string1, string2, ...)
+Resultado: [www.youtube.com](https://www.youtube.com)
+
+2. Operador +
+Método matemático para concatenar texto de forma manual (común en SQL Server).
+
+Sintaxis: string1 + string2 + string_n
+Resultado: [www.xboxlive.com](https://www.xboxlive.com)
+
