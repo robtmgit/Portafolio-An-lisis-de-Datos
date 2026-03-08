@@ -179,4 +179,5 @@ Formateo Manual: Seleccionar la columna > Formato > Número.
 Uso de Funciones: Utilizar la función VALUE() o VALOR() para forzar la conversión.
 
 Operación Matemática: Multiplicar el rango por 1 para transformar strings numéricos en datos operables.
-![Captura de pantalla del proceso](img/value_formula.png)
+<img width="425" height="285" alt="Captura de pantalla 2026-03-08 153351" src="https://github.com/user-attachments/assets/0fd3a948-9241-4aa1-8eca-9b485070d6b2" />
+ng)
