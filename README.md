@@ -180,4 +180,20 @@ Uso de Funciones: Utilizar la función VALUE() o VALOR() para forzar la conversi
 
 Operación Matemática: Multiplicar el rango por 1 para transformar strings numéricos en datos operables.
 <img width="425" height="285" alt="Captura de pantalla 2026-03-08 153351" src="https://github.com/user-attachments/assets/0fd3a948-9241-4aa1-8eca-9b485070d6b2" />
-ng)
+
+🧹 Limpieza de Datos: Normalización y Eliminación de Duplicados
+Este ejercicio demuestra la importancia de la normalización de texto antes de realizar análisis de datos o eliminar registros redundantes.
+
+🔍 Problema Identificado
+Al intentar utilizar la herramienta nativa de Eliminación de Duplicados, el sistema no detectaba registros repetidos debido a la presencia de espacios en blanco (extras) al inicio y final de las cadenas de texto.
+
+🛠️ Metodología Aplicada
+Normalización: Se utilizó la función ESPACIOS() (o TRIM()) en una columna auxiliar para estandarizar los nombres de los clientes.
+
+Validación: Se creó una tabla secundaria de Eliminación de Duplicados para comparar los datos limpios contra los originales.
+
+Resultado: Se logró reducir el dataset de 7 registros a 4 registros únicos, asegurando la integridad de la base de datos.
+
+📊 Comparativa Visual
+<img width="870" height="213" alt="Captura de pantalla 2026-03-08 155501" src="https://github.com/user-attachments/assets/6b0884c9-7edd-4ce7-a162-3f1e86750d42" />
+
