@@ -197,3 +197,22 @@ Resultado: Se logró reducir el dataset de 7 registros a 4 registros únicos, as
 📊 Comparativa Visual
 <img width="870" height="213" alt="Captura de pantalla 2026-03-08 155501" src="https://github.com/user-attachments/assets/6b0884c9-7edd-4ce7-a162-3f1e86750d42" />
 
+📊 Implementación: Automatización con BUSCARV (VLOOKUP)
+Una vez normalizados los datos (eliminando espacios y asegurando el formato correcto), se procedió a automatizar el cálculo de nómina vinculando diferentes tablas.
+
+⚙️ Configuración de la Función
+Se utilizó la función BUSCARV para extraer la Tasa de Pago basada en el Nº de empleado:
+
+Valor buscado: ID del empleado (Columna A).
+
+Matriz: Rango de datos en la hoja 'Employee Rates'.
+
+Indicador de columnas: 2 (para traer el sueldo por hora).
+
+Ordenado: FALSO (para asegurar una coincidencia exacta).
+
+💰 Resultado del Proceso
+Como se aprecia en la imagen, el sistema ahora asigna automáticamente la tasa correspondiente y calcula el Paycheck amount multiplicando Horas trabajadas * Tasa de Pago.
+
+Nota Técnica: El uso de referencias absolutas ($A$2:$B$5) garantiza que la fórmula sea escalable y se pueda arrastrar sin perder el rango de búsqueda.
+<img width="444" height="364" alt="Captura de pantalla 2026-03-08 161220" src="https://github.com/user-attachments/assets/c846eed4-35a8-4b2b-97a8-b2e15c3a3ea7" />
