@@ -216,3 +216,61 @@ Como se aprecia en la imagen, el sistema ahora asigna automáticamente la tasa c
 
 Nota Técnica: El uso de referencias absolutas ($A$2:$B$5) garantiza que la fórmula sea escalable y se pueda arrastrar sin perder el rango de búsqueda.
 <img width="444" height="364" alt="Captura de pantalla 2026-03-08 161220" src="https://github.com/user-attachments/assets/c846eed4-35a8-4b2b-97a8-b2e15c3a3ea7" />
+
+📊 Proyecto: Automatización de Nómina con VLOOKUP y Tablas Dinámicas
+Este proyecto demuestra un flujo de trabajo completo de análisis de datos en hojas de cálculo, desde la identificación de errores comunes en la entrada de datos hasta la generación de reportes automáticos para el cálculo de nómina.
+
+🎯 Objetivo
+Determinar el pago total de un grupo de empleados integrando datos de múltiples fuentes, limpiando inconsistencias de texto y automatizando cálculos financieros.
+
+🛠️ Fase 1: Identificación del Problema (El error #N/A)
+Uno de los mayores retos en el análisis de datos es la inconsistencia. Al intentar buscar las horas trabajadas de un empleado usando VLOOKUP (BUSCARV), se identificó un error común:
+
+Problema: La fórmula =VLOOKUP(B11, B2:E6, 4, false) arrojó un error #N/A.
+
+Causa: Datos "sucios". El nombre en la base de datos tenía espacios adicionales al final ("Chan, Daniel "), mientras que la búsqueda se hacía de forma exacta ("Chan, Daniel").
+
+Lección: La limpieza de datos es un paso obligatorio antes de cualquier análisis.
+
+🧹 Fase 2: Preparación y Limpieza (Data Cleaning)
+Para corregir los errores y preparar el dataset, se utilizaron las siguientes funciones:
+
+Normalización de Texto: Se aplicó la función TRIM (ESPACIOS) para eliminar espacios fantasmas:
+
+=TRIM(B2)
+
+Conversión de Formatos: Se aseguró que las horas fueran tratadas como valores numéricos usando la función VALUE:
+
+=VALUE(C2)
+
+Consolidación: Se etiquetaron las columnas para mantener la integridad de las referencias (Nombres, Fechas, Horas totales, Tarifa y Pago Total).
+
+⚙️ Fase 3: Integración de Datos (VLOOKUP Avanzado)
+El análisis requirió importar la Tarifa por hora que se encontraba en una hoja distinta (Sheet2). Para esto, se utilizó una referencia entre hojas y el uso de referencias absolutas:
+
+Excel
+=VLOOKUP(A2, Sheet2!$A$2:$D$6, 4, false)
+Clave de búsqueda: ID del empleado (A2).
+
+Matriz: Rango bloqueado con $ para permitir el auto-rellenado sin mover el rango de búsqueda.
+
+Indicador: Columna 4 (Tarifa).
+
+Una vez obtenida la tarifa, se calculó el Pago Total mediante la función PRODUCT (PRODUCTO) entre las horas totales y la tarifa.
+
+📈 Fase 4: Reporte Ejecutivo (Tabla Dinámica)
+Para finalizar, se transformaron los datos procesados en información accionable mediante una Tabla Dinámica (Pivot Table), resumiendo los costos por empleado:
+
+Configuración del reporte:
+
+Filas: Nombres de los empleados.
+
+Valores: Suma de Tarifa y Suma de Pago Total.
+
+Formato: Se aplicó formato de divisa ($) para mejorar la lectura profesional del reporte.
+
+🚀 Conclusión
+Este ejercicio reafirma que el éxito de un análisis no depende solo de la fórmula, sino de la calidad de los datos. El dominio de VLOOKUP y Tablas Dinámicas permite reducir horas de trabajo manual en procesos de auditoría y finanzas.
+<img width="292" height="209" alt="Captura de pantalla 2026-03-08 173350" src="https://github.com/user-attachments/assets/45572ef9-2050-4d62-9623-d29d119f1adf" />
+<img width="801" height="436" alt="Captura de pantalla 2026-03-08 173331" src="https://github.com/user-attachments/assets/2d5331ff-fcc0-4764-bedf-02cb05be4769" />
+
