@@ -160,3 +160,23 @@ Este proyecto presenta un análisis integral de datos de ventas de una tienda mi
 
 ### 📈 Análisis de Rentabilidad por Producto
 ![Profit por Subcategoría](img/product_profitability)
+
+Data Cleaning: Text to Numerical Conversion for VLOOKUP
+Este repositorio contiene una guía práctica y ejemplos sobre cómo normalizar tipos de datos en hojas de cálculo. El objetivo principal es resolver el error común donde los valores numéricos almacenados como texto impiden el funcionamiento correcto de funciones de búsqueda como VLOOKUP.
+
+📋 El Problema
+Las funciones de búsqueda y cálculos matemáticos fallan cuando existe una discrepancia en el formato:
+
+Columna A: Números almacenados como Plain Text (alineados a la izquierda). Resultado de suma: 0.
+
+Columna B: Valores convertidos a formato Numérico (alineados a la derecha). Resultado de suma: Correcto (1368).
+
+🛠️ Solución
+Para preparar los datos antes de un VLOOKUP, se recomienda:
+
+Formateo Manual: Seleccionar la columna > Formato > Número.
+
+Uso de Funciones: Utilizar la función VALUE() o VALOR() para forzar la conversión.
+
+Operación Matemática: Multiplicar el rango por 1 para transformar strings numéricos en datos operables.
+![Captura de pantalla del proceso](img/value_formula.png)
