@@ -305,3 +305,19 @@ Utilidad Organizacional: Este tipo de consulta permite a Recursos Humanos identi
 Nota Técnica: El valor null no es un error, sino una representación de la ausencia de una relación entre la tabla de departamentos y la de empleados para esos registros específicos.
 <img width="548" height="238" alt="Captura de pantalla 2026-03-08 205815" src="https://github.com/user-attachments/assets/8b20a62e-85d4-43ad-b92b-b4b53997e5d5" />
 
+🌐 Análisis Total: Visibilidad Completa con FULL OUTER JOIN
+Para cerrar el análisis de relaciones, se implementó un FULL OUTER JOIN. Esta consulta es la más exhaustiva, ya que combina los resultados de un LEFT JOIN y un RIGHT JOIN en una sola vista.
+
+💡 ¿Qué ganamos con esto?
+Visibilidad 360°: El reporte muestra simultáneamente a los empleados que no tienen departamento y a los departamentos que no tienen empleados asignados.
+
+Auditoría Maestra: Es la herramienta perfecta para una limpieza profunda de bases de datos, permitiendo identificar todas las inconsistencias de relación en un solo paso.
+📊 Interpretación de Resultados
+Fila con nombre pero departamento null: Empleado pendiente de asignación.
+
+Fila con departamento pero nombre null: Departamento inactivo o vacante.
+
+Fila con ambos datos: Relación correcta y funcional.
+
+<img width="518" height="384" alt="Captura de pantalla 2026-03-08 210211" src="https://github.com/user-attachments/assets/ca4e9049-1d16-49f6-8f4b-459f3a1de02f" />
+
