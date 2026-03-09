@@ -292,3 +292,16 @@ Mientras que el INNER JOIN solo devuelve registros con coincidencias en ambas ta
 
 <img width="530" height="304" alt="Captura de pantalla 2026-03-08 205541" src="https://github.com/user-attachments/assets/ab1fde3e-d3b7-42d1-86b4-5ebd0675cc92" />
 
+🔍 Análisis de Resultados: Identificación de Departamentos Vacíos
+Al ejecutar el RIGHT JOIN (o un Left Join invertido), los resultados revelaron información crítica sobre la estructura organizacional:
+
+💡 Hallazgos Clave
+Departamentos sin personal: Se identificaron los departamentos de Accounting (Contabilidad) y Sales (Ventas) con valores null en las columnas de empleado.
+
+Interpretación de Datos: Esto indica que existen áreas creadas en el sistema que actualmente no tienen personal asignado o cuyas vacantes no han sido cubiertas.
+
+Utilidad Organizacional: Este tipo de consulta permite a Recursos Humanos identificar departamentos inactivos o áreas con necesidades urgentes de reclutamiento.
+
+Nota Técnica: El valor null no es un error, sino una representación de la ausencia de una relación entre la tabla de departamentos y la de empleados para esos registros específicos.
+<img width="548" height="238" alt="Captura de pantalla 2026-03-08 205815" src="https://github.com/user-attachments/assets/8b20a62e-85d4-43ad-b92b-b4b53997e5d5" />
+
