@@ -274,3 +274,13 @@ Este ejercicio reafirma que el éxito de un análisis no depende solo de la fór
 <img width="292" height="209" alt="Captura de pantalla 2026-03-08 173350" src="https://github.com/user-attachments/assets/45572ef9-2050-4d62-9623-d29d119f1adf" />
 <img width="801" height="436" alt="Captura de pantalla 2026-03-08 173331" src="https://github.com/user-attachments/assets/2d5331ff-fcc0-4764-bedf-02cb05be4769" />
 
+Consultas en BigQuery: Unión de Tablas (INNER JOIN)
+Se realizó una consulta para consolidar información de empleados y sus respectivos departamentos.
+
+Desafío: Inicialmente, la consulta falló porque las tablas no estaban "calificadas" con el nombre del dataset.
+
+Solución: Se ajustó la sintaxis a dataset.tabla para permitir que BigQuery localizara los recursos correctamente.
+
+Habilidades demostradas: Uso de ALIAS (AS), INNER JOIN y referenciación jerárquica de datos.
+<img width="620" height="334" alt="Captura de pantalla 2026-03-08 204937" src="https://github.com/user-attachments/assets/3203b747-7aa0-4367-b804-ea47e33926b3" />
+
