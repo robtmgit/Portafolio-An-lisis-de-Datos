@@ -284,3 +284,11 @@ Solución: Se ajustó la sintaxis a dataset.tabla para permitir que BigQuery loc
 Habilidades demostradas: Uso de ALIAS (AS), INNER JOIN y referenciación jerárquica de datos.
 <img width="620" height="334" alt="Captura de pantalla 2026-03-08 204937" src="https://github.com/user-attachments/assets/3203b747-7aa0-4367-b804-ea47e33926b3" />
 
+🔗 Consultas en BigQuery: Análisis de Relaciones con LEFT JOIN
+En esta etapa del proyecto, se exploró la integridad referencial de la base de datos comparando el comportamiento de diferentes tipos de uniones (Joins).
+
+🧐 Diferencia Aplicada: INNER vs. LEFT JOIN
+Mientras que el INNER JOIN solo devuelve registros con coincidencias en ambas tablas, el LEFT JOIN permite identificar registros en la tabla principal (employees) que no tienen una relación asignada en la tabla secundaria (departments).
+
+<img width="530" height="304" alt="Captura de pantalla 2026-03-08 205541" src="https://github.com/user-attachments/assets/ab1fde3e-d3b7-42d1-86b4-5ebd0675cc92" />
+
