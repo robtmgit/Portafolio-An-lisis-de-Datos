@@ -22,7 +22,7 @@ Analyze customer demographics and spending behavior to identify potential custom
 ## Visualizations
 
 ### Income vs Spending
-![Income vs Spending](img/income_vs_spending.png)
+![Income vs Spending](img/income_spending.png)
 
 ### Age Distribution
 ![Age Distribution](img/age_distribution.png)
