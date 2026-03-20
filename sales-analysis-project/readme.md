@@ -26,7 +26,7 @@ The business has access to sales data but lacks clarity on what is driving reven
 
 Sales show a clear upward trend throughout the year, peaking in December, indicating strong seasonality.
 
-![Monthly Sales Trend](sales-analysis-project/img/monthly_sales_trend.png)
+![Monthly Sales Trend](img/monthly_sales_trend.png)
 
 ---
 
@@ -34,7 +34,7 @@ Sales show a clear upward trend throughout the year, peaking in December, indica
 
 The Apple Smart Phone is the most sold product, leading in total revenue.
 
-![Top Product Sales](sales-analysis-project/img/top_product_sales.png)
+![Top Product Sales](img/top_product_sales.png)
 
 ---
 
@@ -42,7 +42,7 @@ The Apple Smart Phone is the most sold product, leading in total revenue.
 
 Canon ImageClass 2200 generates the highest profit despite not being the most sold product, indicating higher margins.
 
-![Top Product Profit](sales-analysis-project/img/top_product_profit.png)
+![Top Product Profit](img/top_product_profit.png)
 
 ---
 
@@ -50,7 +50,7 @@ Canon ImageClass 2200 generates the highest profit despite not being the most so
 
 Higher discount levels do not significantly increase sales and have a strong negative impact on profitability, even leading to losses at higher levels.
 
-![Discount Impact](sales-analysis-project/img/impact_discount_profit.png)
+![Discount Impact](img/impact_discount_profit.png)
 
 ---
 
