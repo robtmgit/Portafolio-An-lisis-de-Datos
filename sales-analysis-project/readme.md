@@ -16,52 +16,65 @@ The business has access to sales data but lacks clarity on what is driving reven
 ## 🔹 Tools Used
 
 * Google Sheets (data cleaning & analysis)
-* Pivot Tables (aggregation & insights)
+* Pivot Tables (data aggregation and insights)
 
 ---
 
-## 🔹 Analysis
+## 📊 Dashboard & Key Visualizations
 
-The analysis focused on four key areas:
+### 📈 Monthly Sales Trend
 
-### 1. Sales Over Time
+Sales show a clear upward trend throughout the year, peaking in December, indicating strong seasonality.
 
-* Monthly sales trend was analyzed to identify growth patterns and seasonality.
+![Monthly Sales Trend](sales-analysis-project/img/monthly_sales_trend.png)
 
-### 2. Product Performance
+---
 
-* Identified top-selling products and compared them with the most profitable ones.
+### 📦 Top Products by Sales
 
-### 3. Customer Insights
+The Apple Smart Phone is the most sold product, leading in total revenue.
 
-* Evaluated contribution of customers to total revenue.
+![Top Product Sales](sales-analysis-project/img/top_product_sales.png)
 
-### 4. Discount Impact
+---
 
-* Analyzed how discounts affect both sales and profit.
+### 💰 Top Products by Profit
+
+Canon ImageClass 2200 generates the highest profit despite not being the most sold product, indicating higher margins.
+
+![Top Product Profit](sales-analysis-project/img/top_product_profit.png)
+
+---
+
+### 💸 Impact of Discounts on Profit
+
+Higher discount levels do not significantly increase sales and have a strong negative impact on profitability, even leading to losses at higher levels.
+
+![Discount Impact](sales-analysis-project/img/impact_discount_profit.png)
 
 ---
 
 ## 🔹 Key Findings
 
-* Sales show a clear upward trend throughout the year, peaking in December, indicating strong seasonality.
+* Sales increase progressively throughout the year, peaking in December (strong seasonal pattern).
 * The most sold product (Apple Smart Phone) is not the most profitable.
-* Canon ImageClass 2200 generates the highest profit despite lower sales volume.
-* Higher discounts do not significantly increase sales but negatively impact profit.
+* Canon ImageClass 2200 generates the highest profit with lower sales volume, indicating better margins.
+* Discounts above 20% significantly reduce profitability and can lead to losses.
 
 ---
 
 ## 🔹 Recommendations
 
-* Review pricing or discount strategy for high-volume products like Apple Smart Phone to improve margins.
+* Avoid discounts above 20%, as they consistently generate negative profit.
+* Review pricing strategy for high-volume products like Apple Smart Phone to improve margins.
 * Focus marketing efforts on high-profit products such as Canon ImageClass 2200.
-* Reduce excessive discounting, as it lowers profitability without strong sales benefits.
-* Leverage high-performing months (e.g., December) with targeted campaigns.
+* Leverage peak sales periods (e.g., December) with targeted campaigns.
 
 ---
 
 ## 🔹 Conclusion
 
-This analysis highlights the importance of not only focusing on sales volume but also understanding profitability drivers. By optimizing product strategy and discount policies, the business can improve overall performance.
+This analysis highlights that increasing sales volume does not always translate into higher profitability. Strategic focus on margins, pricing, and discount control can significantly improve business performance.
+
 
 ---
